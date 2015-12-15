@@ -16,11 +16,29 @@ div#body_text {
 	float: left;
 }
 
-h1 {
+.header h1 {
 	color: white;
 	display: block;
 	padding-left: 30px;
 	padding-top: 75px;
+}
+
+#title {
+	height: 100px;
+	background-color: black;
+	width: 100%;
+	padding-top: 50px;
+}
+
+.logo img {
+	float: left;
+	height: 80px;
+	padding: 10px;
+}
+
+.logo h1 {
+	color: white;
+	vertical-align: text-bottom;
 }
 
 div#top_bar {
@@ -84,4 +102,8 @@ div.social_media img {
 .coding_picture img {
 	height: 500px;
 	padding: 20px;
+}
+
+ul#navigation li {
+	color: white;
 }
