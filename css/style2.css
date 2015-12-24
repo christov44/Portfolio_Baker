@@ -15,6 +15,7 @@ body {
 	font-family: "Times New Roman", serif;
 	font-size: 10px;
 	min-width: 500px;
+	position: fixed;
 }
 
 .left_block { /* creating generic left block for any element that is split in half */
@@ -58,6 +59,7 @@ body {
 .top_bar .right_block .linkedin img { /* modifying the height of the linkedin image specifically since it seems to have its own padding */
 	height: 22px;
 	padding-left: 1px;
+	padding-right: 15px;
 }
 
 /* .facebook img {
@@ -85,10 +87,6 @@ body {
 
 .email {
 	padding-right: 15px;
-}
-
-.facebook img {
-	padding-right: 20px;
 }
 
 .page_title_bar {
