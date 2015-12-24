@@ -7,10 +7,29 @@ body {
 }
 
 .top_bar {
-	height: 50px;
+	height: 30px;
 	width: 100%; 
 	margin: 0px;
 	background-color: #808080;
+	color: white;
+	font-family: "Times New Roman", serif;
+	font-size: 10px;
+}
+
+.left_block {
+	display: inline-block;
+	height: 100%;
+	width: 50%;
+	margin: 0px;
+}
+
+.right_block {
+	display:inline-block;
+	text-align: right;
+	float: right;
+	height: 100%;
+	width: 50%;
+	margin: 0px;
 }
 
 .helper_container { /* created this so we can vertically center images/text within the parent bars, see http://stackoverflow.com/questions/7273338/how-to-vertically-align-an-image-inside-div for explanation */
@@ -19,10 +38,54 @@ body {
 	vertical-align: middle;
 }
 
-.top_bar img {
-	height: 20px;
+.top_bar .left_block img {
+	height: 15px;
 	padding-left: 5px;
+	padding-right: 2px;
 	vertical-align: middle;
+}
+
+.top_bar .right_block img { /* modifying the social media images sizes */
+	height: 15px;
+	padding-left: 5px;
+	padding-right: 2px;
+	vertical-align: middle;
+}
+
+.top_bar .right_block .linkedin img { /* modifying the height of the linkedin image specifically since it seems to have its own padding */
+	height: 22px;
+	padding-left: 1px;
+}
+
+/* .facebook img {
+	padding-left: 5px;
+	padding-right: 10px;
+} */
+
+.top_bar a { /* styling the top bar's text */
+	font-family: "Times New Roman", serif;
+	font-size: 10px;
+}
+
+.top_bar a:link { /* styling the top bar's unvisited links */
+	color: white;
+	text-decoration: none;
+}
+
+.top_bar a:visited { /* styling the top bar's visited links */
+	color: #ff3300;
+}
+
+.top_bar a:hover {  /* styling the top bar's links when hovered over */
+	text-decoration: underline;
+}
+
+.email {
+	padding-right: 15px;
+}
+
+.facebook img {
+	padding-right: 20px;
 }
 
 .page_title_bar {
