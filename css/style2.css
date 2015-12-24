@@ -6,7 +6,7 @@ body {
 	margin: 0px;
 }
 
-.top_bar {
+.top_bar { /* header bar */
 	height: 30px;
 	width: 100%; 
 	margin: 0px;
@@ -14,16 +14,17 @@ body {
 	color: white;
 	font-family: "Times New Roman", serif;
 	font-size: 10px;
+	min-width: 500px;
 }
 
-.left_block {
+.left_block { /* creating generic left block for any element that is split in half */
 	display: inline-block;
 	height: 100%;
 	width: 50%;
 	margin: 0px;
 }
 
-.right_block {
+.right_block { /* creating generic right block for any element that is split in half */
 	display:inline-block;
 	text-align: right;
 	float: right;
@@ -44,6 +45,8 @@ body {
 	padding-right: 2px;
 	vertical-align: middle;
 }
+
+
 
 .top_bar .right_block img { /* modifying the social media images sizes */
 	height: 15px;
