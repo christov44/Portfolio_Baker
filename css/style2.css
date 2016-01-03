@@ -47,8 +47,6 @@ body {
 	vertical-align: middle;
 }
 
-
-
 .top_bar .right_block img { /* modifying the social media images sizes */
 	height: 15px;
 	padding-left: 5px;
@@ -62,26 +60,21 @@ body {
 	padding-right: 15px;
 }
 
-/* .facebook img {
-	padding-left: 5px;
-	padding-right: 10px;
-} */
-
-.top_bar a { /* styling the top bar's text */
+.top_bar a { /* styling the top_bar's text */
 	font-family: "Times New Roman", serif;
 	font-size: 10px;
 }
 
-.top_bar a:link { /* styling the top bar's unvisited links */
+.top_bar a:link { /* styling the top_bar's unvisited links */
 	color: white;
 	text-decoration: none;
 }
 
-.top_bar a:visited { /* styling the top bar's visited links */
+.top_bar a:visited { /* styling the top_bar's visited links */
 	color: #ff3300;
 }
 
-.top_bar a:hover {  /* styling the top bar's links when hovered over */
+.top_bar a:hover {  /* styling the top_bar's links when hovered over */
 	text-decoration: underline;
 }
 
@@ -89,21 +82,67 @@ body {
 	padding-right: 15px;
 }
 
+.filler_bar { /* will sit behind the top_bar but will be invisible to the user*/
+	height: 30px;
+	width: 100%; 
+	margin: 0px;
+	background-color: #808080;
+}
+
 .page_title_bar {
 	width: 100%;
-	height: 10%;
+	height: 8%;
 	margin: 0px;
 	background-color: #99ccff;
 }
 
+.page_title_bar .left_block img { 
+	height: 65px;
+	padding-left: 15px;
+	padding-right: 10px;
+	vertical-align: middle;
+}
+
+.page_title_bar .left_block {
+	font-family: Georgia, 'Times New Roman', serif;
+	color: black;
+	font-size: 40px;
+	font-weight: 100;
+}
+
+.page_title_bar .right_block {
+	font-family: "Droid Sans", Helvetica, Arial, Verdana, sans-serif;
+	font-size: 15px;
+	vertical-align: middle;
+}
+
+.page_title_bar .right_block .navigation_bar {
+	vertical-align: middle;
+	display: inline-block;
+	padding-right: 50px;
+}
+
+.page_title_bar .right_block .navigation_bar span {
+	text-transform: uppercase;
+	padding-right: 40px;
+}
+
+.page_title_bar .right_block .navigation_bar a:link {
+	text-decoration: none;
+	color: black;
+	font-weight: 900;
+}
+
+
 .header_bar {
 	height: 3%;
 }
-
-.header_bar h1 {
+/* May remove this as I'm no longer making this an h2
+.header_bar h2 {
 	color: #f2f2f2;
 	text-align: center;
-}
+	font-family: "Droid Sans", Helvetica, Arial, Verdana, sans-serif;
+} */
 
 .middle_bar {
 	height: 20%;
@@ -130,4 +169,6 @@ body {
 	height: 11%;
 	background-color: #d9d9d9;
 }
+
+
 
