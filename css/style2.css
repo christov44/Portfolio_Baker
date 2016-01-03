@@ -116,15 +116,21 @@ body {
 	vertical-align: middle;
 }
 
-.page_title_bar .right_block .navigation_bar {
+.page_title_bar .right_block nav {
 	vertical-align: middle;
 	display: inline-block;
 	padding-right: 50px;
 }
 
-.page_title_bar .right_block .navigation_bar span {
+.page_title_bar .right_block .navigation_bar ul {
+	list-style: none;
+	padding: 0px;
+}
+
+.page_title_bar .right_block .navigation_bar li {
 	text-transform: uppercase;
-	padding-right: 40px;
+	display: inline;
+	padding-right: 25px;
 }
 
 .page_title_bar .right_block .navigation_bar a:link {
@@ -132,7 +138,6 @@ body {
 	color: black;
 	font-weight: 900;
 }
-
 
 .header_bar {
 	height: 10%;
@@ -142,17 +147,10 @@ body {
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	font-size: 50px;
 }
-/* May remove this as I'm no longer making this an h2
-.header_bar h2 {
-	color: #f2f2f2;
-	text-align: center;
-	font-family: "Droid Sans", Helvetica, Arial, Verdana, sans-serif;
-} */
 
 .middle_bar {
 	height: 20%;
-	background-color: #66ff33; /* only using this so I can always see where the overall block is placed, can remove color later if I want 
-	border: 15px solid black; */
+	background-color: #66ff33;
 	margin: 0px 25px 50px 25px;
 }
 
@@ -221,16 +219,6 @@ body {
 	width: 33.33%;
 	margin: 0px;
 }
-
-/* .middle_bar .right_third_block .custom_row_block_30p {
-	width: 100%;
-	height: 30%;
-} 
-
-.middle_bar .right_third_block .custom_row_block_70p {
-	width: 100%;
-	height: 70%;
-} */
 
 .middle_bar .right_third_block .company_name {
 	width: 100%;
@@ -415,8 +403,16 @@ body {
 	height: 50%;
 }
 
-.body_copy {
+.about_body_copy {
 	color: white;
+	padding: 20px;
+}
+
+.contact_table table, th, td {
+	padding: 25px;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
 }
 
 
