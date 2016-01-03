@@ -135,7 +135,12 @@ body {
 
 
 .header_bar {
-	height: 3%;
+	height: 10%;
+	color: white;
+	vertical-align: center;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 50px;
 }
 /* May remove this as I'm no longer making this an h2
 .header_bar h2 {
@@ -148,6 +153,7 @@ body {
 	height: 20%;
 	background-color: #66ff33; /* only using this so I can always see where the overall block is placed, can remove color later if I want 
 	border: 15px solid black; */
+	margin: 0px 25px 0px 25px;
 }
 
 .bottom_bar {
