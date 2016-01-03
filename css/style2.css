@@ -313,10 +313,106 @@ body {
 	margin: 0px;
 }
 
+.more_info .far_left_fourth_block {
+	display: inline-block;
+	float: left;
+	height: 100%;
+	width: 25%;
+	margin: 0px;
+}
+
+.more_info .far_left_fourth_block h3 {
+	text-align: center;
+}
+
+.more_info .far_left_fourth_block p {
+	font-size: 15px;
+	padding: 15px;
+}
+
+.more_info .middle_left_fourth_block h3 {
+	text-align: center;
+}
+
+.more_info .middle_left_fourth_block ul {
+	padding-top: 15px;
+	font-size: 15px;
+}
+
+.more_info .middle_right_fourth_block h3 {
+	text-align: center;
+}
+
+.more_info .middle_right_fourth_block ul {
+	padding-top: 15px;
+	font-size: 15px;
+}
+
+.more_info .far_right_fourth_block h3 {
+	text-align: center;
+}
+
+.more_info .far_right_fourth_block {
+	width: 80%;
+	text-align: center;
+}
+
+.more_info .middle_left_fourth_block {
+	display: inline-block;
+	float: left;
+	height: 100%;
+	width: 25%;
+	margin: 0px;
+}
+
+.more_info .middle_right_fourth_block {
+	display: inline-block;
+	float: left;
+	height: 100%;
+	width: 25%;
+	margin: 0px;
+}
+
+.more_info .far_right_fourth_block {
+	display: inline-block;
+	float: left;
+	height: 100%;
+	width: 25%;
+	margin: 0px;
+}
+
 .footer {
 	width: 100%;
 	height: 11%;
 	background-color: #d9d9d9;
+}
+
+.footer img { 
+	height: 65px;
+	padding-left: 15px;
+	padding-right: 10px;
+	vertical-align: middle;
+}
+
+.footer .trademark {
+	font-family: Georgia, 'Times New Roman', serif;
+	color: black;
+	font-size: 10px;
+	font-weight: 100;
+}
+
+.footer .logo {
+	font-family: Georgia, 'Times New Roman', serif;
+	color: black;
+	font-size: 40px;
+	font-weight: 100;
+}
+
+.footer .top_button {
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 300px;
+	height: 50%;
 }
 
 
